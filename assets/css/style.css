@@ -1,0 +1,61 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.subtitle-container {
+    background: #FDFBF1;
+    text-align: center;
+    font-size: 0.7em;
+    border-top: 1px solid #fdaf3a;
+    padding: 1px;
+
+    h2 {
+        color:#107777;
+        span {
+            text-transform: uppercase;
+        }
+        
+    }
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    min-width: 150px;
+    margin-bottom: 20px;
+}
+main {
+    margin-inline: 25%;
+    #section-title {
+        text-align: center;
+        }
+    #author {
+        color: lightgrey;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    .link-container {
+        padding-left: 30px;
+        border-left: 2px solid #fdaf3a; 
+        margin-top: 1.5em;
+        margin-bottom: 2.5em;
+        h4 {
+            margin: 0;
+            text-transform: uppercase;
+            color:lightcoral;
+        }
+    }
+    hr {
+        color: cyan;
+    }
+    .item-list {
+        .title-list {
+          font-weight: bold;
+        }
+        li {
+            margin: 20px 0px;
+        }
+    }
+}
